@@ -7,8 +7,8 @@
 ## How to Run the Project
 
 ## Frameworks / Libraries Used
-HTML
-CSS
-JS
+- HTML
+- CSS
+- JS
 
 ## Screenshot of the Website

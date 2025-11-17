@@ -1,4 +1,14 @@
-# Zion_Pre-Final
+# Zion_Pre-Final Project
 
-## Members
-- Zion R. Sanchez
+## Project Title
+
+## Short Overview
+
+## How to Run the Project
+
+## Frameworks / Libraries Used
+HTML
+CSS
+JS
+
+## Screenshot of the Website

@@ -37,3 +37,7 @@ The site is designed for students in **CSDC100** and related courses who are new
      ethics.html
      article.html
      README.md
+
+## Deployment Link
+https://zisanchez.github.io/Zion_Pre-Final/ 
+

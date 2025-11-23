@@ -1,5 +1,3 @@
-# Zion_Pre-Final Project
-
 # GenAI 101 – FAQs & Ethical Use Website
 
 ## Project Overview

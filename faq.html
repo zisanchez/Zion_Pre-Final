@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GenAI 101 | FAQs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+  >
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="bi bi-cpu"></i> GenAI 101
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="faq.html">FAQs</a></li>
+          <li class="nav-item"><a class="nav-link" href="ethics.html">Ethical Use</a></li>
+          <li class="nav-item"><a class="nav-link" href="article.html">AI in Dev Work</a></li>
+        </ul>
+        <button id="themeToggle" class="btn btn-outline-secondary btn-sm ms-lg-3">
+          <i class="bi bi-moon"></i> Dark Mode
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="py-5">
+    <div class="container">
+      <header class="mb-4 text-center">
+        <h1 class="fw-bold mb-2">Frequently Asked Questions about Generative AI</h1>
+        <p class="text-muted">
+          Beginner-friendly explanations for students, researchers, and curious users.
+        </p>
+      </header>
+
+      <div class="accordion" id="faqAccordion">
+        <!-- Q1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c1" aria-expanded="true">
+              1. What is Generative AI?
+            </button>
+          </h2>
+          <div id="c1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Generative AI is a type of artificial intelligence that can create new
+              content after being trained on large datasets. It can generate:
+              <ul>
+                <li>Text (e.g., essays, summaries, code, chat responses)</li>
+                <li>Images (e.g., artwork, logos, concept designs)</li>
+                <li>Audio (e.g., music, voice synthesis)</li>
+                <li>Video or animations</li>
+              </ul>
+              It does this by learning patterns and then predicting what output would
+              be most likely given a prompt.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2">
+              2. How does Generative AI work?
+            </button>
+          </h2>
+          <div id="c2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Most modern GenAI models use deep learning, especially neural networks
+              called transformers. During training, the model is exposed to huge
+              amounts of example data (text, images, code, etc.). It learns patterns
+              like grammar, structure, relationships between words or pixels, and
+              common sequences.
+              <br><br>
+              When you give it a prompt, the model predicts the next word (for text)
+              or pixel pattern (for images) step by step. It does not “understand”
+              content like a human, but it is very good at pattern matching.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c3">
+              3. What are examples of Generative AI tools?
+            </button>
+          </h2>
+          <div id="c3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Some popular GenAI tools include:
+              <ul>
+                <li>Text &amp; chat: ChatGPT, Gemini, Claude, Copilot</li>
+                <li>Images: DALL·E, Midjourney, Stable Diffusion, Canva AI</li>
+                <li>Code assistants: GitHub Copilot, CodeWhisperer, Cursor</li>
+                <li>Video &amp; audio: Runway, Synthesia, ElevenLabs</li>
+              </ul>
+              New tools appear regularly, so it’s important to check the terms of
+              service and ethical guidelines of each tool you use.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c4">
+              4. What can GenAI do well? (Strengths)
+            </button>
+          </h2>
+          <div id="c4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              GenAI is strong at:
+              <ul>
+                <li>Brainstorming ideas and outlines</li>
+                <li>Drafting emails, essays, and reports</li>
+                <li>Generating code snippets or helping debug</li>
+                <li>Summarizing long texts or lectures</li>
+                <li>Creating visual concepts, thumbnails, and designs</li>
+                <li>Language translation and explanation of concepts</li>
+              </ul>
+              It is most helpful when you use it as a support tool—not as a full
+              replacement for your own thinking.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c5">
+              5. What are the limitations or risks of GenAI?
+            </button>
+          </h2>
+          <div id="c5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Limitations and risks include:
+              <ul>
+                <li><strong>Hallucinations:</strong> The model can generate confident but false information.</li>
+                <li><strong>Bias:</strong> Outputs may reflect stereotypes or biases present in the training data.</li>
+                <li><strong>Plagiarism risk:</strong> Overreliance on AI text/image/code can lead to academic dishonesty.</li>
+                <li><strong>Privacy:</strong> Sensitive personal data should not be pasted into AI tools.</li>
+                <li><strong>Overdependence:</strong> Relying on AI for everything can weaken your own skills.</li>
+              </ul>
+              This is why verification, critical thinking, and ethical guidelines are essential.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q6 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c6">
+              6. Can I use GenAI for school requirements?
+            </button>
+          </h2>
+          <div id="c6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              It depends on your teacher’s or school’s policy. In general:
+              <ul>
+                <li>It is usually okay to use GenAI for <strong>brainstorming, idea generation, and explanations</strong>.</li>
+                <li>It becomes unethical if you <strong>submit AI-generated work as if it were fully your own</strong> without disclosure.</li>
+                <li>You should <strong>cite or acknowledge</strong> GenAI tools when they significantly contributed to your work.</li>
+                <li>When in doubt, ask your instructor how much AI assistance is allowed.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q7 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c7">
+              7. Will GenAI replace humans?
+            </button>
+          </h2>
+          <div id="c7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              GenAI will change many jobs, but in most cases it will act as a
+              <strong>copilot</strong> or assistant rather than a total replacement.
+              Human skills—like critical thinking, ethics, creativity, and emotional
+              intelligence—remain essential.
+              <br><br>
+              The people who benefit most are those who know <strong>how to use AI
+              tools responsibly</strong> and still keep learning and practicing their
+              own skills.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q8 (custom FAQ) -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c8">
+              8. How should I start learning GenAI as a student?
+            </button>
+          </h2>
+          <div id="c8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Some practical tips:
+              <ul>
+                <li>Start with simple prompts like “Explain X to me like I’m a beginner.”</li>
+                <li>Use it to review lessons, summarize readings, and test your understanding.</li>
+                <li>Compare AI explanations with your notes and textbooks.</li>
+                <li>Always double-check important information from reliable sources.</li>
+                <li>Practice writing your own answers first, then ask AI to critique or improve them.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- REFERENCES -->
+      <section class="mt-5">
+        <h2 class="h4 mb-3">References</h2>
+        <ul class="small">
+          <li>OpenAI. “Introduction to Generative AI.”</li>
+          <li>Google Cloud. “What is Generative AI?”</li>
+          <li>UNESCO. “Guidance for Generative AI in Education and Research.”</li>
+          <li>Stanford HAI. “Understanding Foundation Models.”</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="py-3 border-top">
+    <div class="container d-flex justify-content-between align-items-center">
+      <span class="small">© 2025 GenAI 101</span>
+      <span class="small text-muted">FAQs about Generative AI</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS + Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# GenAI 101 – FAQs & Ethical Use Website
+<img width="1917" height="966" alt="screenshot png" src="https://github.com/user-attachments/assets/7154a481-cd47-4437-9bed-076f28a641fe" /># GenAI 101 – FAQs & Ethical Use Website 
 
 ## Project Overview
 
@@ -40,4 +40,5 @@ The site is designed for students in **CSDC100** and related courses who are new
 
 ## Deployment Link
 https://zisanchez.github.io/Zion_Pre-Final/ 
+
 
